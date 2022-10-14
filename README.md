@@ -19,31 +19,10 @@
 
 
 
-
 ## 流量中转
 
   <summary>可以使用 Cloudflare 的 Workers 来中转流量，配置为：</summary>
-  
-  ```js
-  const SingleDay = 'xxx.herokuapp.com';
-  const DoubleDay = 'xxx.herokuapp.com';
-  addEventListener(
-      "fetch", event => {
-          let nd = new Date();
-          if (nd.getDate() % 2) {
-              host = SingleDay;
-          } else {
-              host = DoubleDay;
-          }
-          let url = new URL(event.request.url);
-          url.hostname = host;
-          let request = new Request(url, event.request);
-          event.respondWith(
-              fetch(request)
-          )
-      }
-  )
-  ```
+
 
 ## Xray 默认配置
 
