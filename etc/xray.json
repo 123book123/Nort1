@@ -14,7 +14,7 @@
             "streamSettings": {
                 "network": "ws", 
                 "wsSettings": {
-                    "path": "/api-vless"
+                    "path": "/'$id'-vless"
                 }
             }
         },
@@ -33,7 +33,7 @@
       "streamSettings": {
         "network": "ws",
         "wsSettings": {
-          "path": "/api-vmess"
+          "path": "/'$id'-vmess"
         }
       }
     }
