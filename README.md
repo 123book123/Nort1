@@ -35,7 +35,7 @@
     * 传输协议：ws
     * 伪装类型：none
     * 伪装域名：
-    * 路径：/api-vless 或 /api-vmess
+    * 路径：/UUID-vless 或 /UUID-vmess
     * 底层传输安全：tls
     * 跳过证书验证：false
     * SNI：XXX--XXX--4h6hhh7t7x5j.code.run
